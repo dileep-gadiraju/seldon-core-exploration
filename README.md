@@ -15,6 +15,7 @@ install in a cluster and want a reproducible way to drive it from your laptop.
 | Path | What it does |
 | --- | --- |
 | [`notebooks/seldon_setup.ipynb`](notebooks/seldon_setup.ipynb) | (Re)connects a local shell / Jupyter kernel to a Seldon Core v2 deployment: discovers services, (re)starts `kubectl port-forward`s for the scheduler and the inference mesh, exports the env vars the `seldon` CLI expects, and verifies the control plane + data plane end-to-end. |
+| [`docs/wsl2-setup.md`](docs/wsl2-setup.md) | End-to-end setup guide for running Seldon Core v2 on Windows + WSL2 with a local `kind` cluster via the upstream Ansible playbooks. Includes a troubleshooting log of every issue I actually hit on this laptop. |
 
 More notebooks and notes will be added over time.
 
